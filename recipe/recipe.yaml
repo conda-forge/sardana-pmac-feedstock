@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: sardana-pmac
-  version: 0.3.0
+  version: "0.4.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/sardana_pmac-${{ version }}.tar.gz
-  sha256: f2d6500450b170c3b79b738a69843e3e726c23b0bd527acfe04bc0df45ff5806
+  sha256: 251fa2baaccb395b7411a334ca19c823fc0b02334da6644c9ad771c25754acd5
 
 build:
   number: 0
